@@ -1,0 +1,23 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Concurp - Monitors'
+
+
+theme = "reveal-hugo"
+codeFences = true   # must be set to true for using Mermaid graphics
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[params.reveal_hugo]
+theme = "moon"
+history = true
+slide_number = true
+transition = 'zoom'
+transition_speed = 'fast'
+highlight_theme = "zenburn"
